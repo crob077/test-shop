@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sportswear</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Sportswear</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#" id="cart-link">Cart (0)</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Welcome to Sportswear!</h2>
+		<p>We sell a wide variety of high-quality sports clothes for all your athletic needs.</p>
+		<p>Check out our shop to see our latest products.</p>
+		<div id="product-list">
+			<div class="product-item">
+				<h3>Product 1</h3>
+				<p>Description of product 1.</p>
+				<p>Price: $19.99</p>
+				<button class="add-to-cart" data-product-id="1">Add to Cart</button>
+			</div>
+			<div class="product-item">
+				<h3>Product 2</h3>
+				<p>Description of product 2.</p>
+				<p>Price: $29.99</p>
+				<button class="add-to-cart" data-product-id="2">Add to Cart</button>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>&copy; Sportswear 2023</p>
+	</footer>
+	<div id="cart">
+		<h3>Shopping Cart</h3>
+		<ul id="cart-items">
+		</ul>
+		<p>Total: $<span id="cart-total">0</span></p>
+		<button id="checkout-button">Checkout</button>
+	</div>
+</body>
+</html>
